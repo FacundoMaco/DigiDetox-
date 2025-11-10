@@ -1,6 +1,5 @@
 // src/layouts/ParentLayout.tsx
 
-import React from 'react';
 
 interface ParentLayoutProps {
   children: React.ReactNode;

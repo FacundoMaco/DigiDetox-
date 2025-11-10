@@ -1,6 +1,5 @@
 // src/screens/SplashScreen.tsx
 
-import React from 'react';
 
 function SplashScreen() {
   return (

@@ -1,6 +1,5 @@
 // src/components/BottomNavbar.tsx
 
-import React from 'react';
 import { Home, Award, Activity, CheckCircle } from 'lucide-react';
 
 interface BottomNavbarProps {

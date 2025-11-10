@@ -1,6 +1,5 @@
 // src/screens/RetosScreen.tsx
 
-import React from 'react';
 import { CheckCircle2, Clock, Trophy, Target } from 'lucide-react';
 import { mockRetos } from '../data/mockData';
 

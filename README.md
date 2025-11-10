@@ -21,11 +21,11 @@ DigiDetox+ es una plataforma completa diseñada para ayudar a las familias a ges
 - **Lucide React** - Iconos
 - **Recharts** - Gráficas (preparado para futuras implementaciones)
 
-## 📦 Instalación
+## 🚀 Instalación
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/digidetox-28h.git
+git clone https://github.com/FacundoMaco/DigiDetox-.git
 
 # Entrar al directorio
 cd digidetox-28h
@@ -38,6 +38,39 @@ npm run dev
 ```
 
 La aplicación estará disponible en `http://localhost:5173`
+
+## 📦 Deploy en Vercel
+
+El proyecto está configurado para deploy automático en Vercel:
+
+### Opción 1: Deploy automático desde GitHub
+
+1. Conecta tu repositorio de GitHub a Vercel
+2. Vercel detectará automáticamente la configuración de Vite
+3. El deploy se realizará automáticamente en cada push a `main`
+
+### Opción 2: Deploy manual con Vercel CLI
+
+```bash
+# Instalar Vercel CLI
+npm i -g vercel
+
+# Hacer deploy
+vercel
+
+# Para producción
+vercel --prod
+```
+
+### Configuración
+
+El proyecto incluye `vercel.json` con la configuración necesaria para SPA (Single Page Application). Todas las rutas se redirigen a `index.html` para que React Router funcione correctamente.
+
+**Nota**: No se requiere configuración adicional. Vercel detectará automáticamente:
+- Framework: Vite
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
 
 ## 🏗️ Estructura del Proyecto
 

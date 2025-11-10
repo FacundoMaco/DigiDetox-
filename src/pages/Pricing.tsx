@@ -1,6 +1,5 @@
 // src/pages/Pricing.tsx
 
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/shared/Button';
 import { Check } from 'lucide-react';

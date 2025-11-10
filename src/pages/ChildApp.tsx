@@ -1,6 +1,6 @@
 // src/pages/ChildApp.tsx
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import SplashScreen from '../screens/SplashScreen';
 import HomeScreen from '../screens/HomeScreen';
 import LogrosScreen from '../screens/LogrosScreen';

@@ -1,6 +1,5 @@
 // src/pages/ParentDashboard.tsx
 
-import React from 'react';
 
 export function ParentDashboard() {
   return (

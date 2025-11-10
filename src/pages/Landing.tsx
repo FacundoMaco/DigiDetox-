@@ -1,6 +1,5 @@
 // src/pages/Landing.tsx
 
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/shared/Button';
 import { Shield, BarChart3, Heart, Sparkles, ArrowRight, Check, Zap, Lock, TrendingUp, Users, UserPlus, Users2, Play } from 'lucide-react';

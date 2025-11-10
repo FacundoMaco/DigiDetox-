@@ -1,6 +1,5 @@
 // src/pages/ChildAppDemoPage.tsx
 
-import React from 'react';
 import { ChildLayout } from '../layouts/ChildLayout';
 import { ChildAppDemo } from './ChildAppDemo';
 

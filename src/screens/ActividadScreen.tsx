@@ -1,6 +1,5 @@
 // src/screens/ActividadScreen.tsx
 
-import React from 'react';
 import { Activity, TrendingUp, Flame, MapPin } from 'lucide-react';
 import { mockActividadFisica } from '../data/mockData';
 

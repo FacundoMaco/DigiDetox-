@@ -1,6 +1,7 @@
 // src/contexts/AuthContext.tsx
 
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import { createContext, useContext, useState } from 'react';
+import type { ReactNode } from 'react';
 
 type UserRole = 'parent' | 'child' | null;
 type User = {
@@ -22,13 +23,13 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
 
-  const login = async (email: string, password: string) => {
+  const login = async (email: string, _password: string) => {
     // Simulación de login - siempre funciona
     await new Promise(resolve => setTimeout(resolve, 500));
     setUser({ email, role: null, name: email.split('@')[0] });
   };
 
-  const register = async (email: string, password: string, name: string) => {
+  const register = async (email: string, _password: string, name: string) => {
     // Simulación de registro - siempre funciona
     await new Promise(resolve => setTimeout(resolve, 500));
     setUser({ email, role: null, name });

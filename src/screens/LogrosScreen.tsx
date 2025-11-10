@@ -1,6 +1,5 @@
 // src/screens/LogrosScreen.tsx
 
-import React from 'react';
 import { Award, CheckCircle2, Star } from 'lucide-react';
 import { mockLogros } from '../data/mockData';
 

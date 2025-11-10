@@ -1,6 +1,5 @@
 // src/screens/HomeScreen.tsx
 
-import React from 'react';
 import { Power, ChevronRight, Heart } from 'lucide-react';
 
 function HomeScreen() {
